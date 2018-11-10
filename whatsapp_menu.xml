@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <item
+        android:title="New group"
+        android:id="@+id/group"
+
+        />
+
+    <item
+        android:title="New Broadcast"
+        android:id="@+id/broadcast"
+
+        />
+
+    <item
+        android:title="Whatsapp Web"
+        android:id="@+id/web"
+
+        />
+
+    <item
+        android:title="starred Messages"
+        android:id="@+id/messages"
+
+        />
+
+    <item
+        android:title="Settings"
+        android:id="@+id/Settings"
+
+        />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="120"
+        android:showAsAction="always"
+        />
+
+</menu>
